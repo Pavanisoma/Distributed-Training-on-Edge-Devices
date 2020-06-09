@@ -10,16 +10,24 @@ This project aims to implement a proof of concept of distributed training on edg
 2.Prepare the data
 
 3.We need to store the learning model along with datasets in S3 buckets. Create an S3 bucket in the same region where the notebook instance is created. 
+
 4.Split the data into train and test sets.
+
 5.Train the model to learn from the dataBoto is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS services, such as EC2 and S3. Boto provides an easy to use API to AWS services.
-Deploy the model
+Deploy the model.
+
 6.Deploying the model on a server and create an endpoint that can be accessible
+
 7.Evaluate ML model's performance
+
 8.Integrating Amazon sagemaker endpoints into internet facing applications
+
   a.Create a SageMaker model endpoint
   b.Create a Lambda function that calls the SageMaker Runtime Invoke_Endpoint
   c.Create an API Gateway – Integration request setup
   d.Test with Postman
+  
 9.Terminate resources
+
 10.Delete the Amazon SageMaker endpoint, training jobs and the objects in S3 bucket
 
