@@ -22,7 +22,7 @@ Deploy the model.
 
 8.Integrating Amazon sagemaker endpoints into internet facing applications
 
-  ## a.Create a SageMaker model endpoint
+  ### a.Create a SageMaker model endpoint
   b.Create a Lambda function that calls the SageMaker Runtime Invoke_Endpoint
   c.Create an API Gateway – Integration request setup
   d.Test with Postman
