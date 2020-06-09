@@ -6,7 +6,9 @@ This project aims to implement a proof of concept of distributed training on edg
 # The steps to implement the project architecture are:
 
 1.Create a notebook instance
+
 2.Prepare the data
+
 3.We need to store the learning model along with datasets in S3 buckets. Create an S3 bucket in the same region where the notebook instance is created. 
 4.Split the data into train and test sets.
 5.Train the model to learn from the dataBoto is the Amazon Web Services (AWS) SDK for Python. It enables Python developers to create, configure, and manage AWS services, such as EC2 and S3. Boto provides an easy to use API to AWS services.
